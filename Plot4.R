@@ -32,12 +32,3 @@ legend("topright", legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"
 with(df, plot(datetime, Global_reactive_power, type = "l", xlab = "datetime", ylab = "Global reactive power"))
 
 dev.off()
-
-
-
-
-with(mydata,plot(datetime, Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power"))
-dev.off()
-
-
-
