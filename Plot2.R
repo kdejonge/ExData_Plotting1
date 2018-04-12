@@ -14,7 +14,7 @@ df$datetime <- strptime(paste(df$Date, df$Time), "%Y-%m-%d %H:%M:%S")
 
 # Plot 2
 png("Plot2.png", width = 480, height = 480)
-with(df, plot(datetime, Global_active_power, type=1, ylab="Global Active Power (kilowatts)"))
+(with(df, plot(datetime, Global_active_power, type="l", xlab=" ", ylab="Global Active Power (kilowatts)")))
 dev.off()
 
 
